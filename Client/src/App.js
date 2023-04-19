@@ -4,6 +4,8 @@ import Home from "./components/Home/Home";
 import FormGames from "./components/FormGames/FormGames";
 import "./style.css";
 import Detail from "./components/Details/details";
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001/';
 
 function App() {
   return (
